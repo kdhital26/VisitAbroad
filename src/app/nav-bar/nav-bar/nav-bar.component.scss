@@ -29,3 +29,27 @@
   .toolbar #youtube-logo:hover {
     opacity: 0.8;
   }
+  
+  .navbar-nav {
+    font-size: 23px;
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace cursive;
+    line-height: 2rem;
+    text-align: justify;
+    text-decoration: none;
+    overflow: hidden;
+    // color:#fff;
+  }
+
+  .navbar, .bg-light {
+      // background-color: #47d5b4 !important;
+      background-color: #313232bf!important;
+    } .navbar-light, a {
+      color: #ffffff !important;
+      // color: black !important;
+  }
+
+  .navbar, a:hover {
+    color: none;
+  }
