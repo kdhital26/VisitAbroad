@@ -10,11 +10,11 @@
  <header class="header">
   <nav class="navbar navbar-expand-md navbar-light bg-light">
      <a class="navbar-brand mx-4" href="#">Visit Abroad</a> <!-- logo here -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMobileView" aria-controls="navBarMobileView" aria-expanded="false" aria-label="Toggle navigation">
+    <button (click)="showMenu()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMobileView" aria-controls="navBarMobileView" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse justify-content-between" id="navBarMobileView">
+    <div #myTag class="collapse navbar-collapse justify-content-between className" id="navBarMobileView">
       <ul class="navbar-nav ms-auto mx-auto mb-lg-0 text-center">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home</a>
