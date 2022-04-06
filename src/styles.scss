@@ -1,4 +1,4 @@
-
+// @import '~font-awesome/css/font-awesome.css';
 h1, h2, h3, h4, h5, h6, a {
     font-family: 'Poppins', sans-serif;
 }
@@ -15,6 +15,11 @@ div{
 
 body{
     background-color: #e3e0e0 !important;
+}
+
+::selection {
+    color: #fff;
+    background: #1cc7d0;
 }
 
 
