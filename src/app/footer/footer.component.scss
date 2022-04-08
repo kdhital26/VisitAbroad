@@ -7,10 +7,30 @@
 }
 
 button :hover{
-    color: rgba(241, 90, 31, 0.925) 
+    color: none !important; 
 }
 
 hr {
     border: 1px solid #ffffff;
     opacity: 1;
 }
+
+button {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.col-auto button span {
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;
+    margin-top: -5px;
+
+}
+
+// .row  .ms-auto p{
+//     font-size: 2vw;
+//     text-decoration: none;
+//     font-weight: 15px;
+// }

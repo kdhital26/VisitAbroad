@@ -7,10 +7,6 @@ img {
      // on the position you want.
   }
 
-  .carousel-caption {
-      color: #0C0C0C;      
-  }
-
   .card{
       background-color: #313232bf;
   }
@@ -35,14 +31,14 @@ img {
     font-family: 'Poppins', sans-serif;
 }
 
-html,
-body {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    place-items: center;
-    background: linear-gradient(375deg, #1cc7d0, #2ede98);
-}
+// html,
+// body {
+//     display: grid;
+//     height: 100%;
+//     width: 100%;
+//     place-items: center;
+//     background: linear-gradient(375deg, #1cc7d0, #2ede98);
+// }
 
 
 
@@ -101,7 +97,7 @@ body {
 .wrapper .back-face img {
     height: 150px;
     width: 150px;
-    padding: 5px;
+    padding: 3px;
     border-radius: 50%;
     background: linear-gradient(375deg, #1cc7d0, #2ede98);
 }
@@ -115,6 +111,24 @@ body {
     font-weight: 500;
 }
 
+.asm-images {
+    background: #041C32;
+    color: #dbdb48;
+   line-height: 3em;
+   h3 {
+    transform: translateY(5px);
+    //  color: transparent;
+    font-size: 5.50vw;
+   } 
+   p {
+       font-size: 2.75vw;
+   }
 
-  
+}
+
+.carousel-caption {
+    position: none !important;
+}
+
+
 
