@@ -1,7 +1,9 @@
 
  <header class="header">
   <nav class="navbar navbar-expand-md navbar-light bg-light">
-     <a class="navbar-brand mx-4" href="#">Abroad Shipping Management</a> <!-- logo here -->
+     <a class="navbar-brand mx-4" [routerLink]="['/home']">
+      <img src="assets/img/Regular-horizontal.png" width="250" height="auto">
+     </a> <!-- logo here -->
     <button (click)="showMenu()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMobileView" aria-controls="navBarMobileView" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,19 +14,19 @@
           <a class="nav-link" [routerLink]="['/home']">Home</a>
         </li>
         <li class="nav-item" style="margin-left:30px">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" [routerLink]="['/about']">About</a>
         </li> 
 
         <li class="nav-item" style="margin-left:30px">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" [routerLink]="['/service']">Services</a>
         </li> 
         
         <li class="nav-item active" style="margin-left:30px">
           <a class="nav-link" href="#">Contact</a>
         </li>
-        <li class="nav-item" style="margin-left:30px">
+        <!-- <li class="nav-item" style="margin-left:30px">
           <a class="nav-link" href="#">Location</a>
-        </li> 
+        </li>  -->
       </ul>
     
     </div>

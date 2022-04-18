@@ -1,0 +1,39 @@
+.imgSrc {
+    background-image: url('../../assets/img/maritime.jpg');
+    width: 100wh;
+    background-size: 100% 100%; 
+    height: 80vh;    
+    background-repeat: no-repeat;
+    background-position: left top;
+    object-fit: cover;
+    
+}
+
+.imgContent {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 70px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+     background-color: rgba(34, 34, 48, 0.5);
+    color: #FFFFFF;
+}
+
+.v-img-ser:hover{
+    transform:translateY(-12px);
+    transition-timing-function: ease-in-out;
+    box-sizing: border-box;
+    box-shadow: rgba(34, 34, 48, 0.5);
+    background-color: rgba(34, 34, 48, 0.5);
+
+    // transform: skewY(10deg);
+}
+
+div p strong {
+    font-size: 3em;
+    color: #1f089f;
+}

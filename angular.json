@@ -27,8 +27,8 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/img/favicon.png"
             ],
             "styles": [
               "node_modules/font-awesome/css/font-awesome.css",
