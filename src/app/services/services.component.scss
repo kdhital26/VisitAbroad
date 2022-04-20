@@ -23,6 +23,10 @@
     color: #FFFFFF;
 }
 
+.v-img-ser {
+    transition: all 0.75s linear;
+}
+
 .v-img-ser:hover{
     transform:translateY(-12px);
     transition-timing-function: ease-in-out;
@@ -37,3 +41,25 @@ div p strong {
     font-size: 3em;
     color: #1f089f;
 }
+
+.abs-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    // margin: 0px;
+    // padding: 0px;
+
+}
+
+@media (max-width: 800px) {
+    .abs-wrapper {
+      flex-direction: column;
+    }
+  }
+
+// @media only screen and (max-width: 600px) {
+//     .abs-wrapper {
+//         display: flex;
+//         flex-direction: column;
+//         width: 100%;
+//     }
+//   }

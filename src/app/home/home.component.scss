@@ -24,21 +24,6 @@ img {
 
 //   flipping card scss
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-// html,
-// body {
-//     display: grid;
-//     height: 100%;
-//     width: 100%;
-//     place-items: center;
-//     background: linear-gradient(375deg, #1cc7d0, #2ede98);
-// }
 
 
 
@@ -129,6 +114,42 @@ img {
 .carousel-caption {
     position: none !important;
 }
+
+.asm-images, .d-color, .abs-img-src {
+    animation: transitionIn 3s;
+}
+
+.abs-w-wrapper {
+    animation: transitionAll 3s;
+}
+
+
+
+@keyframes transitionAll {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateY(-20deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+
 
 
 
