@@ -16,11 +16,30 @@
     height: 100%;
     font-size: 70px;
     display: flex;
-    justify-content: start;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-     background-color: rgba(34, 34, 48, 0.5);
+    background-color: rgba(34, 34, 48, 0.5);
     color: #FFFFFF;
+}
+
+.abs-service-title {
+    font-size: 30px !important;
+    background-color: #d60e0e;
+    opacity: 0.75;
+    padding: 5px;
+    margin: 0;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.abs-service-title:hover{
+    background-color: #ffffff;
+    color: #d60e0e;
+    cursor: pointer;
+    opacity: 0.75;
+    border-radius: 4px;
 }
 
 .v-img-ser {
@@ -38,7 +57,7 @@
 }
 
 div p strong {
-    font-size: 3em;
+    font-size: 1.5em;
     color: #1f089f;
 }
 
@@ -50,11 +69,39 @@ div p strong {
 
 }
 
+ img {
+    width: 100vh;
+    height: 40vh;
+    object-fit: cover;
+    margin: 13px 0px 13px 0px;
+    padding: 0;
+}
+
 @media (max-width: 800px) {
     .abs-wrapper {
       flex-direction: column;
     }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
   }
+
+.abs-service-container {
+    animation: transitionIn 3s ;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
 // @media only screen and (max-width: 600px) {
 //     .abs-wrapper {
