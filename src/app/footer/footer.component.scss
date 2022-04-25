@@ -3,9 +3,6 @@
     //background-color: #203787 !important;
 }
 
-// .mb-3 > a :hover {    
-//         color: #2766B3;
-// }
 
 button :hover{
     color: none !important; 
@@ -30,22 +27,21 @@ button {
 
 }
 
-// .row {
-//     font-size: 2vw;
-//     text-decoration: none;
-//     font-weight: 15px;
-// }
-
-.fa-home {
-    font-size: 1.5em;
-}
-
 .btn-outline-light a {
     text-decoration: none;
     color: #FFFFFF !important;
+    transition: 0.5s ease-in;
 }
 
 .btn-outline-light a:hover{
     text-decoration: none;
     color: #000000 !important;
+}
+
+.abs-addres-section > p {
+    line-height: 8px;
+}
+
+.abs-addres-section p > i {
+    font-size: 1.25em;
 }

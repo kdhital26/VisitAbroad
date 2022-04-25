@@ -8,7 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
-import { ServicesComponent } from './services/services.component'
+import { ServicesComponent } from './services/services.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ServicesComponent } from './services/services.component'
     HomeComponent,
     FooterComponent,
     AboutComponent,
-    ServicesComponent
+    ServicesComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

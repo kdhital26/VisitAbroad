@@ -119,7 +119,7 @@ img {
     animation: transitionIn 3s;
 }
 
-.abs-w-wrapper {
+.abs-w-wrapper, .asm-images, .d-color, .abs-img-src {
     animation: transitionAll 3s;
 }
 
@@ -137,17 +137,17 @@ img {
     }
 }
 
-@keyframes transitionIn{
-    from{
-        opacity: 0;
-        transform: rotateY(-20deg);
-    }
+// @keyframes transitionIn{
+//     from{
+//         opacity: 0;
+//         transform: rotateY(-20deg);
+//     }
 
-    to {
-        opacity: 1;
-        transform: rotateY(0);
-    }
-}
+//     to {
+//         opacity: 1;
+//         transform: rotateY(0);
+//     }
+// }
 
 
 

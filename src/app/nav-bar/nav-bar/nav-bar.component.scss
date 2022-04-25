@@ -28,11 +28,21 @@
     line-height: 5rem;
   }
 
+  ul li a{
+    border: 1px solid transparent;
+    padding: 5px 20px;
+  }
+
   .img-container{
     position: relative;
     // height: 150;
     // width: 200;
     box-sizing: border-box;
+  }
+
+  .header{
+    max-width: 100%;
+    margin: auto;
   }
 
   
